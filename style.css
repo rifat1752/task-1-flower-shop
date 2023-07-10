@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    width: 1920px;
+    height: 4867px;
+    background: #FFF;
+}
+.container {
+    width: 1920px;
+    height: 850px;
+}
