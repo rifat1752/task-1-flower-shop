@@ -278,3 +278,70 @@ header {
     font-weight: 400;
     line-height: 30px;
 }
+
+.section-2 {
+    width: 100%;
+    height: 1410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insta {
+    background: #FFF;
+    width: 1440px;
+    height: 1410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.insta-deal {
+    width: 100%;
+    height: 576px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.insta-card {
+    width: 1440px;
+    height: 396px;
+    display: flex;
+    justify-content: space-between;
+}
+.flower-card {
+    width: 342px;
+    height: 396px;
+}
+.latest-deal {
+    background:url(./Flower-Asset/Rectangle9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 1440px;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input {
+    width: 893px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.input input {
+    width: 700px;
+    height: 60px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align:center;
+    font-size: 16px;
+    font-weight: 400;    
+    border: none;
+    outline: none;
+}
+.input input:hover {
+    outline: 1px ;
+}
