@@ -6,7 +6,6 @@
 
 body {
     width: 1920px;
-    height: 4867px;
     background: #FFF;
 }
 
@@ -15,7 +14,51 @@ header {
     width: 1920px;
     height: 850px;
 }
+nav {
+    position: absolute;
+}
+.navbar {
+    position: fixed;
+    width: 1920px;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);;
 
+}
+.logo {
+    width: 800px;
+    font-size: 48px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.logo a {
+    text-decoration: none;
+    color: #272727;
+}
+.logo span {
+    color: #E55473;
+}
+.menu {
+    width: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+}
+.list a:hover {
+    border-bottom: 5px solid #E55473;
+}
 .header-container {
     width: 1920px;
     height: 850px;
@@ -84,7 +127,7 @@ header {
 
 .header-img img {
     width: 635px;
-    height: 800px;
+    height: 750px;
 }
 
 .section-1 {
@@ -386,6 +429,97 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.section-3 {
+    width: 1920px;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.contact-container {
+    width: 1920px;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact {
+    width: 800px;
+    height: 300px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.contact p {
+    width: 600px;
+    font-size: 24px;
+}
+
+.form {
+    width: 40%;
+    height: 400px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.row {
+    display: flex;
+}
+
+.name,
+.email {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.message {
+    margin-top: 10px;
+}
+
+.form-name {
+    font-size: 25px;
+    font-family: 500;
+}
+
+.name-in {
+    height: 30px;
+    width: 200px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #E55473;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+}
+
+.form-text {
+    width: 440px;
+    height: 100px;
+    margin-top: 10px;
+    background: none;
+    border: 1px solid #E55473;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+}
+
+.form .btn {
+    width: 445px;
+    border-radius: 5px;
+}
+
 .footer {
     color: white;
     width: 625px;

@@ -14,6 +14,17 @@
 
 <body>
     <header>
+        <nav>
+            <div class="navbar">
+                <h1 class="logo"><a href="#"><span>Flower</span>Shop</a></h1>
+            <div class="menu">
+                <li class="list"><a href="#">home</a></li>
+                <li class="list"><a href="#feature">flowers</a></li>
+                <li class="list"><a href="#deal">buy</a></li>
+                <li class="list"><a href="#contact">contact</a></li>
+            </div>
+            </div>
+        </nav>
         <div class="header-container">
             <div class="header-text">
                 <h1>Let's make beautiful flowers a part of your life.</h1>
@@ -26,8 +37,8 @@
         </div>
     </header>
     <section>
-        <div class="section-1">
-            <div class="feature">
+        <div id="feature" class="section-1">
+            <div  class="feature">
                 <div class="feature-text">
                     <h1>Our Featured Flowers</h1>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -68,7 +79,7 @@
                 </div>
             </div>
         </div>
-        <div class="deal">
+        <div id="deal" class="deal">
             <div class="hot-deal">
                 <div class="deal-text">
                     <h1>Hot Deal ! Sale Up To 25% <span>Off</span></h1>
@@ -112,6 +123,35 @@
                         <a href="#" class="btn"><button class="btn">sign up</button></a>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="contact" class="section-3">
+            <div class="contact-container">
+                <div  class="contact">
+                    <h1>Contact Us</h1>
+                    <p>Te iisque labitur eos, nec sale argumentum scribentur,
+                        augue disputando in vim. Erat fugit sit at, ius lorem.</p>
+                    <address>Email : company_email@com <br>
+                        Phone : 361-688-5824 <br>
+                        Address : 4826 White Avenue, Corpus Christi, Texas</address>
+                </div>
+                <form class="form" action="submit-form">
+                    <div class="row">
+                        <div class="name">
+                            <label class="form-name" for="name">Name</label>
+                            <input class="name-in" type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="email">
+                            <label class="form-name" for="email">Email</label> <br>
+                            <input class="name-in" type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <label class="form-name" for="message">Message</label> <br>
+                        <textarea class="form-text" name="message" id="message" placeholder="text here" required></textarea>
+                    </div>
+                    <input type="submit" class="btn" value="Submit">
+                </form>
             </div>
         </div>
     </section>
