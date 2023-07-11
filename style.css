@@ -50,7 +50,7 @@ nav {
 
 .list a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.76);
+    color: black;
     font-size: 24px;
     text-transform: capitalize;
     font-weight: 600;
